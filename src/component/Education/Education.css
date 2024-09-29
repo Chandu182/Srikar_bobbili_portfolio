@@ -1,0 +1,38 @@
+.experience__section{
+    text-align: left;
+}
+
+.achievements{
+    background: -webkit-linear-gradient(#b6b6b6, #868181);
+    -webkit-background-clip: text;
+    line-height: 1.7;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    list-style:square;
+}
+.vertical-timeline-element-title{
+    background: -webkit-linear-gradient(#ffffff, #ff5e00);
+    -webkit-background-clip: text;
+    text-align: left;
+    line-height: 1.7;
+    -webkit-text-fill-color: transparent;
+   font-size: 28px;
+   text-transform: capitalize;
+   font-family: 'Kelly Slab';
+
+}
+.vertical-timeline-element-subtitle{
+    text-align: left;
+    line-height: 2.5;
+    font-weight: 500;
+}
+.date{
+    color: #ffffff;
+}
+.section_heading{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    font-family: 'Roboto';
+}

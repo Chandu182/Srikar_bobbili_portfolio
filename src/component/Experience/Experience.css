@@ -1,0 +1,45 @@
+.experience__section{
+    text-align: left;
+    padding: 10px;
+}
+
+.achievements{
+    background: -webkit-linear-gradient(#b6b6b6, #00b5bb);
+    -webkit-background-clip: text;
+    line-height: 1.7;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    list-style:square;
+}
+.vertical-timeline-element-title{
+    background: -webkit-linear-gradient(#ffffff, #000879);
+    -webkit-background-clip: text;
+    text-align: left;
+    line-height: 1.7;
+    -webkit-text-fill-color: transparent;
+   font-size: 28px;
+   text-transform: capitalize;
+   font-family: 'Kelly Slab';
+
+}
+.vertical-timeline-element-subtitle{
+    background: -webkit-linear-gradient(#ffffff, #000879);
+    -webkit-background-clip: text;
+    text-align: left;
+    line-height: 1.7;
+    -webkit-text-fill-color: transparent;
+    font-size: 22px;
+    text-align: left;
+    line-height: 2.5;
+    font-weight: 500;
+}
+.date{
+    color: #ffffff;
+}
+.section__heading{
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    font-family: 'Roboto';
+}

@@ -1,0 +1,52 @@
+/* Contact.css */
+.contact-section {
+  color: aliceblue;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    background: -webkit-linear-gradient(#bbb5b5, #00a2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 10px;
+  }
+  
+  .contact-item i {
+    background: -webkit-linear-gradient(#ffffff, #000879);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+  }
+  
+  .contact-item a,
+  .contact-item p {
+    background: -webkit-linear-gradient(#000000, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .contact-item a:hover {
+    background: -webkit-linear-gradient(#002fffd0, #ffffff,#ff00dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+  }
+
+  

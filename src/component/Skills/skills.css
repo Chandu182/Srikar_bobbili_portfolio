@@ -1,0 +1,62 @@
+.container{
+  padding: 10px;
+  background: radial-gradient(circle at 0% 0%, rgb(141, 134, 134) 0%, rgb(1, 66, 77) 50%, rgba(255, 255, 255, 0.589) 100%);
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Adjust size based on your preference */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skill-logo {
+    height: auto;
+    mix-blend-mode: multiply;
+    filter: contrast(2);
+    width: 100%;
+    aspect-ratio: 6/2;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  .skill-logo:hover{
+    mix-blend-mode: multiply;
+    background-color: transparent;
+  }
+  
+  .skill-name {
+    font-size: 16px;
+    color: #201e1e;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .skill-item:hover {
+    transform: scale(1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    mix-blend-mode: multiply;
+    border-color: transparent;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: multiply;
+  }
+  
+  .star-icon {
+    color: #f008d1; /* Gold color for the stars */
+    margin: 0 2px;
+  }
+  
