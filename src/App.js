@@ -6,8 +6,6 @@ import AboutMe from './component/AboutMe/AboutMe';
 import Navbar from './component/Navbar/Navbar';
 import EmploymentSlider from './component/Projetcs/Projects';
 import ContactSection from './component/contact/contact';
-import { Component } from 'react';
-
 function App() {
   return (
     <div className="App">
