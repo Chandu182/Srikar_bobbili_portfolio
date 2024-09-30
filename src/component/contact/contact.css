@@ -1,6 +1,7 @@
 /* Contact.css */
 .contact-section {
   color: aliceblue;
+  width: 100%;
     padding: 40px;
     text-align: center;
   }
@@ -14,8 +15,7 @@
   }
   .contact-info {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
   }
   
@@ -46,7 +46,17 @@
     background: -webkit-linear-gradient(#002fffd0, #ffffff,#ff00dd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 24px;
+    font-size: 1.3rem;
+  }
+  @media screen and (max-width:756px){
+
+    .contact-info {
+      flex-direction: column;
+      gap: 0;
+    }
+    .contact-item{
+      gap: 0;
+    }
   }
 
   

@@ -8,11 +8,7 @@ const ContactSection = () => {
       <div className="contact-info">
         <div className="contact-item">
           <i className="fas fa-envelope"></i>
-          <a href="mailto:thumma.chandrakiranreddy@gmail.com">thumma.chandrakiranreddy@gmail.com</a>
-        </div>
-        <div className="contact-item">
-          <i className="fas fa-phone"></i>
-          <a href="tel:+918688140755">+91 8688140755</a>
+          <a href="mailto:sreekarb009@gmail.com">sreekarb009@gmail.com</a>
         </div>
         <div className="contact-item">
           <i className="fab fa-linkedin"></i>
